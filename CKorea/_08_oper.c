@@ -12,4 +12,5 @@ void main8() {
 	printf("5를 2로 나눈 나머지는 %d입니다.\n", result4);
 	int num = 3;
 	printf("num이 홀수면 1, 짝수면 0 : %d\n", num % 2);
+
 }

@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{160ff69d-282f-454a-9074-b9bd7d1a629a}</ProjectGuid>
-    <RootNamespace>image0lg</RootNamespace>
+    <ProjectGuid>{1ef2ffce-8b0c-4452-abfc-04a41d5939ce}</ProjectGuid>
+    <RootNamespace>ImgDlg</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ImageDlg</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,18 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
-    <ClInclude Include="image0lg.h" />
+    <ClInclude Include="ImgDlg.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ImageDlg.cpp" />
+    <ClCompile Include="ImgDlg.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="ImageDlg.rc" />
+    <ResourceCompile Include="ImgDlg.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="ImageDlg.ico" />
+    <Image Include="ImgDlg.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

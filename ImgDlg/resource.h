@@ -1,16 +1,16 @@
 ﻿//{{NO_DEPENDENCIES}}
 // Microsoft Visual C++에서 생성한 포함 파일입니다.
-// image0lg.rc에서 사용되고 있습니다.
+// ImgDlg.rc에서 사용되고 있습니다.
 //
 #define IDC_MYICON                      2
-#define IDD_IMAGE0LG_DIALOG             102
+#define IDD_IMGDLG_DIALOG               102
 #define IDS_APP_TITLE                   103
 #define IDD_ABOUTBOX                    103
 #define IDM_ABOUT                       104
 #define IDM_EXIT                        105
-#define IDI_IMAGE0LG                    107
+#define IDI_IMGDLG                      107
 #define IDI_SMALL                       108
-#define IDC_IMAGE0LG                    109
+#define IDC_IMGDLG                      109
 #define IDR_MAINFRAME                   128
 #define IDD_DIALOG1                     129
 #define IDC_STATIC                      -1

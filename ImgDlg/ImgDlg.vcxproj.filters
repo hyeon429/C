@@ -24,17 +24,17 @@
     <ClInclude Include="Resource.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="image0lg.h">
+    <ClInclude Include="ImgDlg.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ImageDlg.cpp">
+    <ClCompile Include="ImgDlg.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="ImageDlg.rc">
+    <ResourceCompile Include="ImgDlg.rc">
       <Filter>리소스 파일</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -42,7 +42,7 @@
     <Image Include="small.ico">
       <Filter>리소스 파일</Filter>
     </Image>
-    <Image Include="ImageDlg.ico">
+    <Image Include="ImgDlg.ico">
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>

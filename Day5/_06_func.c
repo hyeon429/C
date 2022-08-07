@@ -23,13 +23,14 @@ void Div(int n7, int n8) {
 	int result = n7 / n8;
 	printf("%d\n", result);
 }
+// ================================================= 절대값 문제Q==========================================
 // 숫자 2개를 입력받아 각각 절대값으로 만들어 더하기
 void PosSum(int num1, int num2) {
 	if (num1 < 0) {
-		num1* (-1);
+		num1 *= (-1);
 	}
 	if (num2 < 0) {
-		num2* (-1);
+		num2 *= (-1);
 	}
 	int result = num1 + num2;
 	printf("%d\n", result);
@@ -38,14 +39,16 @@ void PosSum(int num1, int num2) {
 // 숫자 2개를 입력받아 각각 절대값으로 만들어 빼기
 void PosSub(int num3, int num4) {
 	if (num3 < 0) {
-		num3* (-1);
+		num3 *= (-1);
 	}
-	if (num3 < 0) {
-		num4* (-1);
+	if (num4 < 0) {
+		num4 *= (-1);
 	}
 	int result = num3 - num4;
 	printf("%d\n", result);
 }
+// ===========================================>>> 가능한 원래의 변수를 훼손하지 않고 새로운 변수 지정
+
 // c언어의 시작점은 main 함수이다.
 	int main()
 	{
@@ -60,7 +63,6 @@ void PosSub(int num3, int num4) {
 		PosSum(-3, 2);
 
 		PosSub(-5, -1);
-
 
 		return 0;
 	}
